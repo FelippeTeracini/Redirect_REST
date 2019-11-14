@@ -72,3 +72,7 @@ def main(argv):
 
     uvicorn.run("redirection:app", host=server_address,
                 port=PORT, log_level="info")
+
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
